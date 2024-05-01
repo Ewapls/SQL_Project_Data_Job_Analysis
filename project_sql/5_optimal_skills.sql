@@ -50,7 +50,7 @@ Order by
     skill_demand_count desc
 Limit 25
 
--- Another more consice way
+-- Another more concise way
 Select 
     skills.skill_id as skill_id,
     skills.skills as skill_name,

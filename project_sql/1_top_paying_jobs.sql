@@ -19,8 +19,7 @@ Left Join
     company_dim as companies on job_postings_fact.company_id = companies.company_id
 Where 
     job_title_short = 'Data Analyst' AND
-    (job_location = 'Anywhere'       OR
-    job_location like '%Peru%'     ) AND
+    job_location = 'Anywhere'        AND
     salary_year_avg is not null
 Order BY
     salary_year_avg DESC
